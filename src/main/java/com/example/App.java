@@ -9,7 +9,7 @@ public class App
     public static void main( String[] args )
     {
         Login login = new Login();
-        login.setUsername("user1");
+        login.setUsername("user123");
         login.setPassword("password123");
 
         Withdraw withdraw = new Withdraw();
@@ -21,7 +21,7 @@ public class App
         balance.setBalance(50000.0);
         //System.out.println( "Hello World!" );
         try{
-            if(!login.getUsername().equals("user12") || !login.getPassword().equals("password123")){
+            if(!login.getUsername().equals("user123") || !login.getPassword().equals("password123")){
                 throw new NewExc("Invalid login credentials");
             }
             if(withdraw.getAmount() > balance.getBalance()){
