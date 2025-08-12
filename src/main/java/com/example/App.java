@@ -37,7 +37,7 @@ public class App
             System.out.println("An error occurred: " + e.getMessage());
         }
         System.out.println("username:" + login.getUsername() +" " + "password:" + login.getPassword());
-
+        System.out.println("Withdrawal amount: " + withdraw.getAmount());
         System.out.println("Your account balance is:" + balance.getBalance());
     }
 }
