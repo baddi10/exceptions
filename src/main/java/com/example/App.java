@@ -9,11 +9,8 @@ public class App
     public static void main( String[] args )
     {
         Login login = new Login();
- child2
-        login.setUsername("user12");
 
         login.setUsername("user12");
- child1
         login.setPassword("password123");
 
         Withdraw withdraw = new Withdraw();
